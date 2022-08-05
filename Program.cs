@@ -9,7 +9,9 @@
 
             //LogicalProgram.FibonacciSeries();
             //LogicalProgram.PerfectNumber();
-            LogicalProgram.Reversenumber();
+            //LogicalProgram.Reversenumber();
+            LogicalProgram.PrimeNumber();
+
         }
     }
 
