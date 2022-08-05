@@ -8,8 +8,10 @@
             Console.WriteLine("Wellcome to Logical Programs");
 
             //LogicalProgram.FibonacciSeries();
-            LogicalProgram.PerfectNumber();
+            //LogicalProgram.PerfectNumber();
+            LogicalProgram.Reversenumber();
         }
     }
 
 }
+
