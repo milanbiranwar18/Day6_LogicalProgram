@@ -48,5 +48,23 @@ namespace Day6LogicalProgram
                     Console.Write("{0} , ", n);
             }
         }
+
+        public static void Reversenumber()
+        {
+            int n, reverse = 0, rem;
+            Console.WriteLine("Enter the number : ");
+            n = int.Parse(Console.ReadLine());
+
+            while (n != 0)
+            {
+                rem = n % 10;
+                reverse = reverse * 10 + rem;
+                n = n / 10;
+            }
+            Console.WriteLine("Reverse Number :" + reverse);
+        }
+
+       
+        
     }
 }
